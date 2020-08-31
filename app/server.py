@@ -12,7 +12,7 @@ from starlette.staticfiles import StaticFiles
 export_file_url = 'https://www.dropbox.com/s/se02p7dbk7ox0tq/covid-19x-ray.pkl?dl=1'
 export_file_name = 'covid-19x-ray.pkl'
 
-classes = ['COVID-19', 'Non COVID-19']
+classes = ['Covid_X-Ray', 'Non_Covid_X-Ray', 'Viral_Pneumonia']
 path = Path(__file__).parent
 
 app = Starlette()
