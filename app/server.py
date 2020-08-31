@@ -9,8 +9,8 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://www.dropbox.com/s/zi2u779uz6qrygd/covid-19CT.pkl?dl=1'
-export_file_name = 'covid-19CT.pkl'
+export_file_url = 'https://www.dropbox.com/s/se02p7dbk7ox0tq/covid-19x-ray.pkl?dl=1'
+export_file_name = 'covid-19x-ray.pkl'
 
 classes = ['COVID-19', 'Non COVID-19']
 path = Path(__file__).parent
